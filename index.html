@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Framework Demo</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="top">
+    <ul class="nav black nav-h">
+      <li>
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <i class="fa fa-home margin-right"></i>Logo
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <i class="fa fa-firefox"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <i class="fa fa-user"></i>
+        </a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <i class="fa fa-bell"></i>
+          <sup class="sup red">3</sup>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">3个好友申请</a>
+          <a href="#">有人赞了你的文章</a>
+          <a href="#">好友留言</a>
+        </div>
+      </li>
+      <li class="right">
+        <a href="#" class="text-lightgray large hover-lightgray ">
+          <img src="https://unsplash.it/300/300?image=1005" class="circle" width="25px" height="25px" alt="author">
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- main-content -->
+  <div class="margin-top-64">
+    <div class="row-padding">
+      <!-- clo-1 -->
+      <div class="col l3 s12">
+        <div class="shadow container padding-tb round margin-bottom">
+          <p class="center">我的主页</p>
+          <div class="center">
+            <img src="https://unsplash.it/300/300?image=823" class="circle" width="100" height="100" alt="author">
+          </div>
+          <hr>
+          <ul class="list">
+            <li><i class="fa fa-pencil text-red margin-right "></i>Designer UI</li>
+            <li><i class="fa fa-calendar text-red margin-right "></i>London UK</li>
+            <li><i class="fa fa-birthday-cake text-red margin-right "></i>May 10,1992</li>
+          </ul>
+        </div>
+        <!-- list -->
+        <div class="shadow container lightred padding-tb round margin-bottom">
+          <ul class="list">
+            <li class="hover-red"><i class="fa fa-pencil  margin-right "></i>Designer UI</li>
+            <li class="hover-red"><i class="fa fa-calendar  margin-right "></i>London UK</li>
+            <li class="hover-red"><i class="fa fa-birthday-cake  margin-right "></i>May 10,1992</li>
+          </ul>
+        </div>
+        <!-- tag -->
+        <div class="shadow container padding-tb round margin-bottom">
+          <span class="tag lightred">最新</span>
+          <span class="tag lightblue">音乐</span>
+          <span class="tag lightgray">运动</span>
+          <span class="tag lightgreen">阅读</span>
+          <span class="tag lightred">艺术</span>
+          <span class="tag lightgreen">摄影</span>
+          <span class="tag lightred">电影</span>
+        </div>
+        <!-- tag -->
+        <div class="shadow relative-contaner lightyellow container padding-tb round margin-bottom">
+          <button class="btn top-right" onclick="this.parentNode.style.display='none'">x</button>
+          <h4>Hey!</h4>
+          <p class="small">有人正在浏览您的主页，看看 TA 是谁</p>
+        </div>
+      </div>
+      <!-- col-2 -->
+      <div class="col l7 s12">
+        <!-- form -->
+        <div class="shadow container padding-tb margin-bottom-24 round">
+          <form class="" action="#" method="post">
+            <div class="form-group-label">
+              <label for="name" class="floating-label">发布你的状态：</label>
+              <input type="text" class="form-control" id="name" name="name" value="">
+            </div>
+            <div class="right-align">
+              <button type="submit" class="button lightred"><i class="fa fa-pencil margin-right-8"></i>发送</button>
+            </div>
+          </form>
+        </div>
+        <!-- artical-1 -->
+        <div class="shadow container padding-tb margin-bottom-24 round">
+          <div class="container">
+            <img src="https://unsplash.it/300/300?image=1005" width="60px" height="60px" class="circle left margin-right" alt="author">
+            <span class="right text-gray">1 min</span>
+            <h3>Arthur Cao</h3>
+            <br>
+            <hr class="clear">
+            <p>The flight was full only except one seat, the middle seat in my row so actually, the seat where that woman was sitting didn't have a passenger yet. Just at the last moment, this tall Indian guy 29 years old showed up. He went to his seat and asked her to get up. I turned my head just to see what happens. Somehow she managed to convince this guy to switch so he ended up on the middle seat next to me. Even before the flight could take off, this guy and I became friends. He was a Ph.D. student at Michigan State and there were plenty of things we found common between us. I told him this woman's story and we started laughing. Now we are connected over FB and text and communicate often.</p>
+          </div>
+          <div class="row-padding">
+            <div class="row-padding">
+              <div class="col l6 s12 margin-bottom">
+                <img src="https://unsplash.it/300/200?image=826" width="300" height="200" class="img" alt="">
+              </div>
+              <div class="col l6 s12 margin-bottom">
+                <img src="https://unsplash.it/300/200?image=791" width="300" height="200" class="img" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <button class="button red"><i class="fa fa-thumbs-up margin-right-8"></i>喜欢</button>
+            <button class="button "><i class="fa fa-comment margin-right-8"></i>留言</button>
+          </div>
+        </div>
+        <!-- article 2 -->
+        <div class="shadow  padding-tb margin-bottom-24 round">
+          <div class="container">
+            <img src="https://unsplash.it/300/300?image=978" width="60" height="60" class="circle left margin-right" alt="author">
+            <span class="right text-grey">1 min</span>
+            <h3>Jon Deno</h3>
+            <br>
+            <hr class="clear">
+            <p>his is what John said about Julian in a Playboy interview that took place in September of 1980. He was murdered in December. In short, they were in contact but not close at all. I personally think he should have given the same amount as he gave to Sean even if Julian was “born out of a bottle of whiskey,” but that’s me.</p>
+          </div>
+          <div class="container">
+            <button class="button red"><i class="fa fa-thumbs-up margin-right-8"></i>喜欢</button>
+            <button class="button "><i class="fa fa-comment margin-right-8"></i>留言</button>
+          </div>
+        </div>
+        <!-- article 3-->
+        <div class="shadow  padding-tb margin-bottom-24 round">
+          <div class="container">
+            <img src="https://unsplash.it/300/300?image=987" width="60" height="60" class="circle left margin-right" alt="author">
+            <span class="right text-grey">1 min</span>
+            <h3>Micheal jackson</h3>
+            <br>
+            <hr class="clear">
+            <p>I found it wierd that why is this lady jumping between the seats and not going to hers. Turned out that hers was the middle seat. Anyway, she gave the seat to the man but still didn't sit in her middle seat. She rather kept standing for a while. Later in 5 min. approx, she asked the man to move to the middle seat because she wanted to sit on an aisle seat. The man denied decently and said I use toilet often so that is why I always pick an aisle seat. Women made a real evil face which I found very disrespectful.</p>
+            <img src="https://unsplash.it/800/400?image=985" width="800" height="400" class="img" alt="article">
+          </div>
+          <div class="container margin-top">
+            <button class="button red"><i class="fa fa-thumbs-up margin-right-8"></i>喜欢</button>
+            <button class="button "><i class="fa fa-comment margin-right-8"></i>留言</button>
+          </div>
+        </div>
+      </div>
+      <!-- col 3 -->
+      <div class="col l2 s12">
+        <div class="shadow container center padding-tb margin-bottom-24 round">
+          <p>要开始活动：</p>
+          <img src="https://unsplash.it/300/200?image=969" width="300" height="200" class="img" alt="img">
+          <h4>假日狂欢</h4>
+          <p>星期五 15:00</p>
+          <button class="button lightgrey hover-shadow-off hover-lightgray" style="width:100%">详 情</button>
+        </div>
+
+        <div class="shadow container center padding-tb margin-bottom-24 round">
+          <p>好友请求</p>
+          <img src="https://unsplash.it/300/300?image=838" width="80" height="80" alt="img">
+          <p class="small wide-small">小鱼儿</p>
+          <div class="row">
+            <button class="button left lightgreen hover-shadow-off hover-lightgrey" style="width:50%">Yes</button>
+            <button class="button left lightred hover-shadow-off hover-lightgrey" style="width:50%">No</button>
+          </div>
+        </div>
+
+        <div class="shadow container center padding-tb margin-bottom-24 round">
+          <p>好友请求</p>
+          <img src="https://unsplash.it/300/300?image=836" width="80" height="80" alt="img">
+          <p class="small wide-small">小鱼儿</p>
+          <div class="row">
+            <button class="button left lightgreen hover-shadow-off hover-lightgrey" style="width:50%">Yes</button>
+            <button class="button left lightred hover-shadow-off hover-lightgrey" style="width:50%">No</button>
+          </div>
+        </div>
+
+        <div class="shadow container center padding-tb margin-bottom-24 round">
+          <p>好友请求</p>
+          <img src="https://unsplash.it/300/300?image=834" width="80" height="80" alt="img">
+          <p class="small wide-small">小鱼儿</p>
+          <div class="row">
+            <button class="button left lightgreen hover-shadow-off hover-lightgrey" style="width:50%">Yes</button>
+            <button class="button left lightred hover-shadow-off hover-lightgrey" style="width:50%">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="black margin-top padding-tb center">
+    <p>Power by
+      <a href="https://www.youtube.com/watch?v=64ShqwSw8vI" class="text-lightgray" target="_blank">NBA.com</a>
+    </p>
+  </footer>
+  <script src="./js/base.js" charset="utf-8"></script>
+</body>
+
+</html>
